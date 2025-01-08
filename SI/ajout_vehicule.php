@@ -1,23 +1,22 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Database connection
+  
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "tp_si"; // Replace with your actual database name
+    $dbname = "tp_si"; 
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
-    // Check connection
+    
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
 
-    // Prepare and bind
+   
     $stmt = $conn->prepare("INSERT INTO VEHICULE (NUM_IDENTIFICATION_, ID_CAMPUS_, TYPE_VEHICULE_, CAPACITE_MAX_, ETAT_, MARQUE_, MODELE_, ANNEE_FABRICATION_) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
     $stmt->bind_param("sisisssi", $num_identification, $id_campus, $type_vehicule, $capacite_max, $etat, $marque, $modele, $annee_fabrication);
 
-    // Set parameters and execute
     $num_identification = $_POST["NUM_IDENTIFICATION_"];
     $id_campus = $_POST["ID_CAMPUS_"];
     $type_vehicule = $_POST["TYPE_VEHICULE_"];
@@ -44,7 +43,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajout de Véhicule</title>
-    <!-- Include Bootstrap CSS for a professional design -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -148,7 +146,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 </div>
 
-<!-- Include Bootstrap JS (optional for advanced components) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
