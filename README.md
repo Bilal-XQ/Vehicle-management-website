@@ -34,7 +34,7 @@ Set up your web server (e.g., Apache, Nginx) and point it to the project directo
 
 Configure the database:
 
-Import the provided SQL file (if available) into your MySQL database.
+Import the provided SQL file into your MySQL database.
 Update the database connection settings in the backend PHP files.
 Launch the application in your browser.
 
