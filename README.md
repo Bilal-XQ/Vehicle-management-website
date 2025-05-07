@@ -16,10 +16,5 @@ Run the project on a local server (e.g., XAMPP or WAMP).
 Connect With Me
 If you find this project interesting, feel free to reach out:
 
-LinkedIn: Your LinkedIn Profile
-Email: Your Email Address
-⭐ Don’t forget to star the repository if you like the project!
-
-Code
-
-Let me know if you’d like to tweak it further!
+LinkedIn: www.linkedin.com/in/bilalelazzam
+Email: bilalelazzam.dev@gmail.com
