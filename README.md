@@ -20,10 +20,8 @@ The **Vehicle Management Website** is a web-based platform designed to simplify 
 
 ## Screenshot
 
-![image](https://github.com/user-attachments/assets/edf1cde8-429a-40d5-b560-a86ad74b85ea)
+![image](https://github.com/user-attachments/assets/b3649dcf-ea5f-454f-a190-1168b934216c)
 
-
-Make sure to replace the `path/to/your/screenshot.png` with the actual path or URL to your screenshot.
 
 ## Installation
 
@@ -32,3 +30,19 @@ Make sure to replace the `path/to/your/screenshot.png` with the actual path or U
    ```bash
    git clone https://github.com/Bilal-XQ/Vehicle-management-website.git
    cd Vehicle-management-website
+Set up your web server (e.g., Apache, Nginx) and point it to the project directory.
+
+Configure the database:
+
+Import the provided SQL file (if available) into your MySQL database.
+Update the database connection settings in the backend PHP files.
+Launch the application in your browser.
+
+Contributing
+Contributions are welcome! Please follow these steps:
+
+Fork the repository.
+Create a new branch (git checkout -b feature/my-feature).
+Commit your changes (git commit -m 'Add some feature').
+Push to the branch (git push origin feature/my-feature).
+Open a Pull Request.
