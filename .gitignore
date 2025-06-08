@@ -1,0 +1,207 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+out
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Vite build output
+dist/
+dist-ssr/
+
+# Rollup.js default build output
+dist/
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Laravel & PHP specific
+/vendor/
+/storage/*.key
+/storage/app/public/
+/storage/framework/cache/data/
+/storage/framework/sessions/
+/storage/framework/testing/
+/storage/framework/views/
+/storage/logs/
+/bootstrap/cache/
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+
+# Laravel Sail
+docker-compose.override.yml
+
+# Composer
+composer.phar
+composer.lock
+
+# PHPStorm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# PHP CS Fixer
+.php_cs
+.php_cs.cache
+.php-cs-fixer.cache
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build artifacts
+build/
+public/build/
+public/hot
+public/storage
+storage/app/public
+
+# Local development
+.vagrant/
+.docker/
+
+# Testing
+coverage/
+.phpunit.cache/
+
+# Documentation build
+docs/_build/
+
+# Secrets and keys
+*.key
+*.pem
+*.p12
+*.crt
+*.csr
+
+# Local configuration overrides
+config/local.php
+.env.*.local
+
+# Cache files
+*.cache
+
+# Lock files (uncomment if you want to ignore them)
+# package-lock.json
+# yarn.lock
+# composer.lock
