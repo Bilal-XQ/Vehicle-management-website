@@ -275,31 +275,6 @@ This project showcases production-ready code quality and modern development prac
 - 🔧 **PHP/Backend Developer Roles**
 - 🎨 **UI/UX Development Positions**
 
-### **Get in Touch**
-- 💼 **Portfolio:** [Your Portfolio URL]
-- 💌 **Email:** [Your Email]
-- 💼 **LinkedIn:** [Your LinkedIn]
-- 🐙 **GitHub:** [Your GitHub]
-
----
-
-## 📝 **License & Usage**
-
-This project is available under the **MIT License** - feel free to use it for:
-- ✅ **Learning and Education**
-- ✅ **Portfolio Showcase**  
-- ✅ **Commercial Projects**
-- ✅ **Client Demonstrations**
-
----
-
-## 🙏 **Acknowledgments**
-
-- **React Team** for the amazing React framework
-- **Tailwind CSS** for the utility-first CSS framework
-- **TypeScript Team** for bringing type safety to JavaScript
-- **Vite Team** for the lightning-fast build tool
-
 ---
 
 <div align="center">
