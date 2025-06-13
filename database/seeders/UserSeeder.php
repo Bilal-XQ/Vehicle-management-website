@@ -12,13 +12,22 @@ class UserSeeder extends Seeder
      * Run the database seeds.
      */
     public function run(): void
-    {
-        // Create admin user
+    {        // Create admin user
         User::create([
             'name' => 'Admin User',
             'email' => 'admin@vehiclemanagement.com',
             'password' => Hash::make('password123'),
             'role' => 'admin',
+            'is_active' => true,
+            'email_verified_at' => now(),
+        ]);
+
+        // Create demo user for easy testing
+        User::create([
+            'name' => 'Demo User',
+            'email' => 'demo@demo.com',
+            'password' => Hash::make('demo123'),
+            'role' => 'manager',
             'is_active' => true,
             'email_verified_at' => now(),
         ]);

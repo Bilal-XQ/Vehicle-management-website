@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\UserController;
 use App\Http\Controllers\Api\VehicleController;
 use App\Http\Controllers\Api\VehicleMakeController;
@@ -24,8 +25,8 @@ use App\Http\Controllers\Api\VehicleDocumentController;
 
 // Public authentication routes
 Route::prefix('auth')->group(function () {
-    Route::post('/register', [UserController::class, 'register']);
-    Route::post('/login', [UserController::class, 'login']);
+    Route::post('/register', [AuthController::class, 'register']);
+    Route::post('/login', [AuthController::class, 'login']);
 });
 
 // Protected routes requiring authentication
@@ -33,8 +34,8 @@ Route::middleware('auth:sanctum')->group(function () {
     
     // Authentication routes
     Route::prefix('auth')->group(function () {
-        Route::post('/logout', [UserController::class, 'logout']);
-        Route::get('/profile', [UserController::class, 'profile']);
+        Route::post('/logout', [AuthController::class, 'logout']);
+        Route::get('/me', [AuthController::class, 'me']);
         Route::put('/profile', [UserController::class, 'updateProfile']);
         Route::post('/change-password', [UserController::class, 'changePassword']);
         Route::post('/refresh-token', [UserController::class, 'refreshToken']);
