@@ -10,9 +10,7 @@
 
 ## 🌟 **Live Demo**
 
-🔗 **[View Live Application](https://your-domain.com)** *(Coming Soon)*
-
-![Vehicle Management Dashboard](https://via.placeholder.com/800x400/1f2937/ffffff?text=Vehicle+Management+Dashboard)
+🔗 **[View Live Application]()** *(Coming Soon)*
 
 ---
 
